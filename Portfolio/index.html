@@ -14,23 +14,48 @@
       <img src="img/eliza..svg" alt="Eliza">
       <nav aria-label="primaria">
         <ul class="header-menu">
-          <li><a href="https://www.linkedin.com/in/eliza-costa/">Contato</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
-
   <main class="intro-bg">
     <div class="intro">
-      <div>
-        <h1>Prazer, eu sou Eliza.</h1>
-        <p>Desenvolvedora Front-End localizada no Rio de Janeiro. Sou apaixonada por tecnologia e uma comunicadora entusiasmada. Com uma carreira dedicada a explorar o mundo da inovação, estou constantemente fascinada pela maneira como a tecnologia está moldando nosso futuro.</p>
-        <button>
-          <a href="https://www.linkedin.com/in/eliza-costa/">LinkedIn</a>
-        </button>
-      </div>
       <img src="img/2DSC00524.JPG" alt="profile">
+    </div>
+
+    <div class="text">
+      <h1>Prazer, eu sou Eliza.</h1>
+      <p>Desenvolvedora Front-End localizada no Rio de Janeiro. Sou apaixonada por tecnologia e uma comunicadora entusiasmada. Com uma carreira dedicada a explorar o mundo da inovação, estou constantemente fascinada pela maneira como a tecnologia está moldando nosso futuro.</p><br>
+      <p> Com especialização sólida em Desenvolvimento Web, mergulhei de cabeça em desafios tecnológicos, sempre em busca de soluções criativas. Minha jornada profissional me permitiu adquirir habilidades valiosas em trabalhar em equipe e participar de projetos empolgantes que impactam positivamente as empresas e a sociedade.</p><br>
+      <p>Estou sempre aberta a novas conexões e oportunidades para aprender e crescer profissionalmente.</p>
+      <a href="https://www.linkedin.com/in/eliza-costa/">LinkedIn</a>
+      <a href="https://github.com/elizacso">Github</a>
+    </div>
   </main>
+  <section id="contato" class="final">
+    <div class="contato">
+      <h1>Contato</h1><br>
+      <p>Estou disponível para novos projetos. Entre em contato comigo e vamos agendar uma conversa.</p><br>
+      <p><span>eelizareis@gmail.com</span></p>
+    </div>
+    <div class="form">
+      <h1>Formulário de Contato:</h1>
+      <form method="post" action="https://652c7d9fd0d1df5273ef717a.mockapi.io/api/v1/forms">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required><br>
+        <label for="tel">Tel.:</label>
+        <input type="tel" id="tel" name="tel" placeholder="Digite seu telefone"><br>
+        <label for="subject">Assunto:</label>
+        <input type="text" id="subject" name="subject" placeholder="Digite o assunto"><br>
+        <label for="text">Mensagem:</label>
+        <textarea id="text" name="text" cols="30" rows="5"></textarea><br>
+        <input type="submit" id="enviar"><br>
+      </form>
+    </div>
+  </section>
 </body>
 
 </html>
